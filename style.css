@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+
+}
+body {
+    background-color: rgb(121, 187, 234);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wraper{
+    
+    background:rgb(250, 247, 247);
+    box-shadow: 20px 20px ;
+    
+    border-radius: 10px;
+    padding: 30px 30px 25px;
+}
+.wraper header{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'lobstor',cursive;
+}
+
+
+
+.wraper .content  {
+    font-family: 'lobster',cursive;
+    text-align: center;
+    margin-top: 40px;
+    padding-right: 7px;
+    
+    
+ 
+
+   
+}
+
+
+
+ .word{
+    font-family: 'lobster',cursive;
+    font-weight: 20px;
+    font-size: 20px;
+    
+}
+
+    
+
+
+
+.wordlao{
+    font-family: 'phetsarath ot';
+    font-weight: 10px;
+    font-size: 18px;
+}
+.meaning{
+    font-family: 'lobster',cursive;
+    font-size: 17px;
+    font-weight: 17px;
+    text-align: left;
+    margin-top: 35px;
+    color: brown;
+}
+
+
+.description{
+    font-family: 'lobster',cursive;
+    font-size: 17px;
+    font-weight: 17px;
+    text-align: left;
+    margin-top: 15px;
+}
+.senten{
+    border-top-width: 2px solid black;
+}
+.example{
+    font-family: 'lobster',cursive;
+    font-size: 17px;
+    font-weight: 10px;
+    margin-top: 40px;
+    text-align: left;
+    color: brown;
+
+}
+
+
+.senten{
+    font-family: 'lobster',cursive;
+    font-size: 17px;
+    font-weight: 10px;
+    margin-top: 15px;
+    text-align: left;
+}
+.wordbtn{
+    font-family: 'lobster',cursive;
+    margin-top: 50px;
+    color: rgb(246, 247, 249);
+    text-align: center;
+    
+    background-color: rgb(125, 146, 240);
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(49, 50, 50);
+    cursor: pointer;
+  
+}
+.wordbtn:hover{
+   background-color: rgb(52, 92, 193);
+}
+.stop{
+    font-family: 'lobster',cursive;
+    margin-top: 50px;
+    color: rgb(246, 247, 249);
+    text-align: center;
+    align-items: end;
+    
+    background-color: rgb(125, 146, 240);
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(49, 50, 50);
+    cursor: pointer;
+}
+.stop:hover{
+    background-color: rgb(52, 92, 193);
+}
+
+
